@@ -21,7 +21,7 @@ $(document).ready(function(){
       } else {
         $("#showAnswer").show().text("I don't know");
       }
-
+    // $("button").text("Ask again?");
     $("#inputField").val('');
     });
   });
