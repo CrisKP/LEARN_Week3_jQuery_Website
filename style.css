@@ -1,0 +1,23 @@
+*{
+  background-color: #99ccff;
+  text-align: center;
+}
+
+.title {
+  color: #0073e6;
+}
+
+.button {
+  background-color: #c4ff4d;
+  border-radius: 50%;
+}
+
+.textStyle {
+  color: #333;
+  font-style: italic;
+  font-family: fantasy;
+}
+
+.input {
+  background-color: #cce6ff;
+}

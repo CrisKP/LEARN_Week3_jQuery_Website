@@ -1,12 +1,17 @@
 $(document).ready(function(){
 
-    $("button").on("click",
-    function answer() {
-      var guess = (Math.floor(Math.random() * 4));
-      var input = $("#inputField").val();
-      console.log(input);
-      console.log(guess);
-      $("#showInput").text(input);
+  $("h1").addClass("title");
+  $("button").addClass("button");
+  $("p").addClass("textStyle");
+  $("input").addClass("input");
+
+  $("button").on("click",
+  function() {
+    var guess = (Math.floor(Math.random() * 4));
+    var input = $("#inputField").val();
+    console.log(input);
+    console.log(guess);
+    $("#showInput").text(input);
       if (guess == 0){
         $("#showAnswer").show().text("Yes");
       } else if (guess == 1){
@@ -16,6 +21,7 @@ $(document).ready(function(){
       } else {
         $("#showAnswer").show().text("I don't know");
       }
-      // $("#showInput").show().("#inputField").val();
+
+    $("#inputField").val('');
     });
   });
